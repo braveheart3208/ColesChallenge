@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph_recipe"
+    app:startDestination="@id/menuRecipeFragment">
+
+    <fragment
+        android:id="@+id/menuRecipeFragment"
+        android:name="com.interpos.coleschallengeapp.feature_menu.presentation.view.fragment.MenuRecipeFragment"
+        android:label="fragment_menu_recipe"
+        tools:layout="@layout/fragment_menu_recipe" >
+        <action
+            android:id="@+id/action_menuRecipeFragment_to_recipeDetailFragment"
+            app:destination="@id/recipeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="com.interpos.coleschallengeapp.feature_menu.presentation.view.fragment.RecipeDetailFragment"
+        android:label="fragment_recipe_detail"
+        tools:layout="@layout/fragment_recipe_detail" >
+        <action
+            android:id="@+id/action_recipeDetailFragment_to_menuRecipeFragment"
+            app:destination="@id/menuRecipeFragment" />
+    </fragment>
+</navigation>
