@@ -18,7 +18,7 @@ ColesChallengeApp  is developed by Alex Duong in accordance with requirements de
 The app intends to provide a grid of available recipes, data is provided from a .json file called recipesSample.json
 
 ## Requirements
-[Please see this document for requirements](https://github.com/bhlaing/MyMonashApp/blob/master/challenge.docx)
+[Please see this document for requirements](https://github.com/braveheart3208/ColesChallenge/blob/main/Coles%20Mobile%20Coding%20Challenge%20Brief-v1.1.pdf)
 
 ## Usage
 Launching - Simply launch the app by tapping on the app icon <br />
@@ -34,6 +34,7 @@ The app is implemented in MVVM pattern in conjunction with clean architecture
 <br/><br/>
 MVVM is an alternative design pattern to traditional design patterns such as MVP, MVC in android development. Primarily decouple UI to business logic,
 allows further ease of access, maintain and alter in code development
+
 **Clean architecture and benefits**
 <br/><br/>
 Clean architecture allows us to decouple business logics from android framework. The use of domain use-cases (in this case)
